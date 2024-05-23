@@ -1,6 +1,5 @@
 # Ark-Dino-SQL
-Database for Ark DInos
-
+Database for Ark Dinos:
 ```
 Create table Ark_Creature (
   species varchar,
@@ -83,7 +82,6 @@ Create table Biome_data(
    Wooden_Club int
    );
 
- 
 insert into Tranq_Shots (Dino_id, Tranq_Arrows, Tranq_Darts, Slingshot, Wooden_Club) values
 (1, 119, 85, 345, 673),
 (2, 78, 127, 353, 694),
@@ -166,8 +164,24 @@ Create table Size (
   (10, 'M'),
   (11, 'M')
   ;
+```
 
+---
+Danes Query:
 
+```
+select Ark_Creature.species as Creatures, Ark_Creature.levels as Levels, Ark_Creature.dino_type as type, Ark_Creature.age as age, Ark_Creature.diets as diets
+from Ark_Creature 
+Order by Ark_Creature.levels
+;
 
+select Ark_Creature.species as Creatures, Ark_Creature.diets as diets
+from Ark_Creature
+where Ark_Creature.diets = 'Omnivore' or Ark_Creature.diets = 'Herbivore'
+order by ark_creature.species
+;
 
+select Biomes.biome as biome,  biome_data.weather as weather
+from biomes
+inner join biomes on biomes.biome = biome_data.weather
 ```
