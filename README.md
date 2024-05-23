@@ -2,7 +2,7 @@
 Database for Ark DInos
 
 ```
-create table Ark_Creature (
+Create table Ark_Creature (
   species varchar,
   levels int,
   gender varchar,
@@ -147,6 +147,25 @@ insert into Behavior(Dino_id, Behavior) values
 (10, 'Aggressive'),
 (11, 'Aggressive')
 ;
+
+Create table Size (
+ Dino_id int,
+ Dino_Size varchar
+  );
+  
+  insert into Size(Dino_id, Dino_Size) values
+  (1, 'XL'),
+  (2, 'XL'),
+  (3, 'XL'),
+  (4, 'L'),
+  (5, 'L'),
+  (6, 'XXL'),
+  (7, 'S'),
+  (8, 'L'),
+  (9, 'S'),
+  (10, 'M'),
+  (11, 'M')
+  ;
 
 
 
