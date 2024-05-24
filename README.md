@@ -99,7 +99,7 @@ insert into Tranq_Shots (Dino_id, Tranq_Arrows, Tranq_Darts, Slingshot, Wooden_C
 Create table Tool_Materials (
 Tool varchar, 
 Materials varchar
-  )
+  );
 
 Insert into Tool_Materials(Tool, Materials) values
 ('Wooden_Club', 'Wood/Fiber'),
@@ -113,7 +113,7 @@ Create table Ridable (
   Ridable varchar
   );
  
-insert into Ridable (Dino_id, Ridable) value  
+insert into Ridable (Dino_id, Ridable) values  
 (1, 'Yes'),
 (2, 'Yes'),
 (3, 'Yes'),
