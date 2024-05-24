@@ -10,8 +10,8 @@ Create table Ark_Creature (
 );
 
 insert into Ark_Creature(species, levels, gender, dino_type, mutation, Age, diets, Dino_id) values
-('Brontosaurus', 100, 'F', 'land', 15, 'Adolescent', 'Carnivore', 1),
-('Mosasaur', 75, 'F','sea', 10, 'Adult','Carnivore', 2),
+('Brontosaurus', 100, 'F', 'Land', 15, 'Adolescent', 'Carnivore', 1),
+('Mosasaur', 75, 'F','Sea', 10, 'Adult','Carnivore', 2),
 ('Giganotosaurus', 200, 'M', 'Land', 0, 'Egg', 'Carnivore', 3),
 ('Carnotaurus', 50, 'M', 'Land', 2, 'Adult','Carnivore', 4),
 ('Megatherium', 215, 'F', 'Land', 0, 'Adult', 'Omnivore', 5),
