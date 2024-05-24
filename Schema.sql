@@ -15,7 +15,7 @@ insert into Ark_Creature(species, levels, gender, dino_type, mutation, Age, diet
 ('Giganotosaurus', 200, 'M', 'Land', 0, 'Egg', 'Carnivore', 3),
 ('Carnotaurus', 50, 'M', 'Land', 2, 'Adult','Carnivore', 4),
 ('Megatherium', 215, 'F', 'Land', 0, 'Adult', 'Omnivore', 5),
-('Dodo', 15, 'M', 'Lan', 0, 'Adult', 'Herbivore', 7),
+('Dodo', 15, 'M', 'Land', 0, 'Adult', 'Herbivore', 7),
  ('Wyvern', 68, 'F', 'Sky', 5, 'Adult', 'Carnivore', 8),
 ('Pteranodon', 123, 'M', 'Sky', 9, 'Egg', 'Carnivore', 9),
 ('Baryonyx', 145, 'F', 'Sea', 3, 'Adolescent', 'Omnivore', 10),
