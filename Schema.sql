@@ -148,7 +148,7 @@ Create table Dino_Size (
  Dino_Size varchar
   );
   
-  insert into Size(Dino_id, Dino_Size) values
+  insert into Dino_Size(Dino_id, Dino_Size) values
   (1, 'XL'),
   (2, 'XL'),
   (3, 'XL'),
