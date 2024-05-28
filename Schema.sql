@@ -10,16 +10,16 @@ Create table Ark_Creature (
 );
 
 insert into Ark_Creature(species, levels, gender, dino_type, mutation, Age, diets, Dino_id) values
-('Brontosaurus', 100, 'F', 'Land', 15, 'Adolescent ', 'Carnivore', 1),
-('Mosasaur', 75, 'F','Sea', 10, 'Adult ','Carnivore', 2),
-('Giganotosaurus', 200, 'M', 'Land', 0, 'Egg ', 'Carnivore', 3),
-('Carnotaurus', 50, 'M', 'Land', 2, 'Adult ','Carnivore', 4),
-('Megatherium', 215, 'F', 'Land', 0, 'Adult ', 'Omnivore', 5),
-('Dodo', 15, 'M', 'Land', 0, 'Adult ', 'Herbivore', 7),
- ('Wyvern', 68, 'F', 'Sky', 5, 'Adult ', 'Carnivore', 8),
-('Pteranodon', 123, 'M', 'Sky', 9, 'Egg ', 'Carnivore', 9),
-('Baryonyx', 145, 'F', 'Sea', 3, 'Adolescent ', 'Omnivore', 10),
-('Griffon', 100, 'M', 'Sky', 7, 'Adult ', 'Carnivore', 11)
+('Brontosaurus', 100, 'F', 'Land', 15, 'Adolescent', 'Carnivore', 1),
+('Mosasaur', 75, 'F','Sea', 10, 'Adult','Carnivore', 2),
+('Giganotosaurus', 200, 'M', 'Land', 0, 'Egg', 'Carnivore', 3),
+('Carnotaurus', 50, 'M', 'Land', 2, 'Adult','Carnivore', 4),
+('Megatherium', 215, 'F', 'Land', 0, 'Adult', 'Omnivore', 5),
+('Dodo', 15, 'M', 'Land', 0, 'Adult', 'Herbivore', 7),
+ ('Wyvern', 68, 'F', 'Sky', 5, 'Adult', 'Carnivore', 8),
+('Pteranodon', 123, 'M', 'Sky', 9, 'Egg', 'Carnivore', 9),
+('Baryonyx', 145, 'F', 'Sea', 3, 'Adolescent', 'Omnivore', 10),
+('Griffon', 100, 'M', 'Sky', 7, 'Adult', 'Carnivore', 11)
 ;
 
 Create table Main_Purpose(
@@ -28,17 +28,17 @@ Purpose varchar
 );
 
 insert into Main_Purpose (Dino_id, Purpose) values
-(1, 'Get wood/fiber'),
-(2, 'Transportation(water)'),
+(1, 'Get wood/fiber, '),
+(2, 'Transportation(water), '),
 (3, 'Attacking'),
 (4, 'Attacking'),
-(5, 'Collect berries/fiber/wood'),
-(6, 'Transportation(land)'),
-(7, 'Lay eggs'),
-(8, 'Attacking'),
-(9, 'Transportation(flying)'),
-(10, 'Attacking'),
-(11, 'Transportation')
+(5, 'Collect berries/fiber/wood, '),
+(6, 'Transportation(land), '),
+(7, 'Lay eggs, '),
+(8, 'Attacking, '),
+(9, 'Transportation(flying), '),
+(10, 'Attacking, '),
+(11, 'Transportation, ')
 ;
 
 Create table Biomes(
@@ -47,17 +47,17 @@ Biome varchar
   );
 
 insert into Biomes (Dino_id, Biome) values
-(1, 'Forest'),
-(2, 'Ocean'),
-(3, 'Forest'),
-(4, 'Dessert'),
-(5, 'Forest'),
-(6, 'Forest'),
-(7, 'Forest'),
-(8, 'Dessert'),
-(9, 'Forest'),
-(10, 'Ocean'),
-(11, 'Dessert')
+(1, 'Forest, '),
+(2, 'Ocean, '),
+(3, 'Forest, '),
+(4, 'Dessert, '),
+(5, 'Forest, '),
+(6, 'Forest, '),
+(7, 'Forest, '),
+(8, 'Dessert, '),
+(9, 'Forest, '),
+(10, 'Ocean, '),
+(11, 'Dessert, ')
 ;
 
 Create table Biome_data(
@@ -66,9 +66,9 @@ Create table Biome_data(
   );
   
  insert into Biome_data (Biome, Weather) values
- ('Forest', 'Humid_and_Moist'),
- ('Ocean', 'Cold_and_Windy'),
- ('Desert', 'Hot_and_Dry')
+ ('Forest, ', 'Humid_and_Moist'),
+ ('Ocean, ', 'Cold_and_Windy'),
+ ('Desert, ', 'Hot_and_Dry')
  ;
  
  Create table Tranq_Shots(
@@ -79,18 +79,18 @@ Create table Biome_data(
    Wooden_Club int
    );
 
-insert into Tranq_Shots (Dino_id, Tranq_Arrows, Tranq_Darts, Slingshot, Wooden_Club) values
-(1, 119, 85, 345, 673),
-(2, 78, 127, 353, 694),
-(3, 355, 248, 552, 674),
-(4, 50, 25, 88, 134),
-(5, 115, 58, 234, 356),
-(6, 500, 346, 823, 1200),
-(7, 1, 1, 2, 5),
-(8, 54, 22, 96, 123),
-(9, 30, 12, 78, 132),
-(10, 56, 25, 112, 134),
-(11, 130, 80, 180, 250)
+insert into Tranq_Shots (Dino_id, Tranq_Arrows) values
+(1, 119),
+(2, 78),
+(3, 355),
+(4, 50),
+(5, 115),
+(6, 500),
+(7, 1),
+(8, 54),
+(9, 30),
+(10, 56),
+(11, 130)
 ;
 
 Create table Tool_Materials (
