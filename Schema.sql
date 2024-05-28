@@ -143,7 +143,7 @@ insert into Behavior(Dino_id, Behavior) values
 (11, 'Aggressive')
 ;
 
-Create table Size (
+Create table Dino_Size (
  Dino_id int,
  Dino_Size varchar
   );
